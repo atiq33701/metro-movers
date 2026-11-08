@@ -1,19 +1,20 @@
+
 import Link from "next/link";
 import { QuoteButton } from "../components/Quote";
 import { Carousel } from "../components/Client";
 import { Ld, WHATSAPP, business, meta } from "../components/Shared";
 
 export const metadata = meta(
-  "Metro Movers | House & Office Removals in Bombay",
-  "Metro Movers provides house, office and long distance moving services across Bombay and New Zealand. Contact Metro Movers on +64 22 687 1426 for a quote.",
+  "Metro Movers | House & Office Removals in Auckland",
+  "Metro Movers provides house, office and long distance moving services across Auckland and New Zealand. Contact Metro Movers on +64 22 687 1426 for a quote.",
   "/"
 );
 
 const SERVICES = [
-  ["/house-moving", "/img/photos/2.jpeg", "House moving services in Bombay", "House moving", "Moving apartments, townhouses and family homes across Bombay with careful handling of your furniture and belongings."],
-  ["/office-movers", "/img/photos/21.jpeg", "Office and commercial moving services", "Office & commercial", "Professional office and commercial relocation services for businesses moving within Bombay."],
-  ["/long-distance-movers-nz", "/img/photos/4.jpeg", "Long distance moving services in New Zealand", "Long distance", "Long distance moving services from Bombay to locations throughout New Zealand."],
-  ["/moving-services", "/img/photos/20.jpeg", "Bombay moving services", "Bombay moving", "Moving assistance for homes and businesses throughout Bombay and surrounding areas."],
+  ["/house-moving", "/img/photos/2.jpeg", "House moving services in Auckland", "House moving", "Moving apartments, townhouses and family homes across Auckland with careful handling of your furniture and belongings."],
+  ["/office-movers", "/img/photos/21.jpeg", "Office and commercial moving services", "Office & commercial", "Professional office and commercial relocation services for businesses moving within Auckland."],
+  ["/long-distance-movers-nz", "/img/photos/4.jpeg", "Long distance moving services in New Zealand", "Long distance", "Long distance moving services from Auckland to locations throughout New Zealand."],
+  ["/moving-services", "/img/photos/20.jpeg", "Auckland moving services", "Auckland moving", "Moving assistance for homes and businesses throughout Auckland and surrounding areas."],
 ];
 
 const icon = {
@@ -50,8 +51,8 @@ const WHY = [
     </>,
   ],
   [
-    "Local Bombay service",
-    "Bombay based and available for moving requirements across the Bombay area.",
+    "Auckland moving service",
+    "Auckland based and available for moving requirements across the Auckland region.",
     <>
       <path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z" />
       <circle cx="7" cy="18" r="1.5" />
@@ -62,7 +63,7 @@ const WHY = [
 
 const REVIEWS = [
   ["Vincent and his team were great! Very efficient and took extra care with everything. They wrapped drawers with cling wrap and had blankets for the delicate things.", "Ethan", "3 bedroom house"],
-  ["Fast, efficient, productive, and moved all of our furniture carefully and quickly. Best moving experience so far in Bombay.", "Edwin", "Parnell to Mt Wellington"],
+  ["Fast, efficient, productive, and moved all of our furniture carefully and quickly. Best moving experience so far in Auckland.", "Edwin", "Parnell to Mt Wellington"],
   ["Clear communication, happy to adjust the booking for me and got everything where it needed to be. They made it super easy!", "McKenzie", "1 bedroom apartment"],
 ];
 
@@ -85,12 +86,12 @@ export default function Page() {
       <section className="overflow-hidden bg-paper">
         <div className="wrap grid items-center gap-9 py-6 min-[561px]:py-10 lg:grid-cols-[1.05fr_.95fr] lg:gap-12 lg:py-20">
           <div>
-            <p className="eyebrow animate-rise [animation-delay:.05s]">Bombay based · Serving Bombay</p>
+            <p className="eyebrow animate-rise [animation-delay:.05s]">Auckland based · Serving Auckland</p>
             <h1 className="animate-rise max-w-[20ch] [animation-delay:.18s]">
               Metro Movers who turn up on time, handle your belongings with care and get the job done.
             </h1>
             <p className="mb-6 max-w-[46ch] animate-rise text-[1.15rem] text-ink-3 [animation-delay:.3s]">
-              House, office and long distance removals across Bombay and New Zealand, with a moving team focused on careful handling and reliable service.
+              House, office and long distance removals across Auckland and New Zealand, with a moving team focused on careful handling and reliable service.
             </p>
             <div className="flex animate-rise flex-wrap gap-3 [animation-delay:.42s]">
               <QuoteButton className="btn btn-primary px-[30px] py-[17px] text-[1.08rem] max-[560px]:hidden">Get a Quote</QuoteButton>
@@ -99,7 +100,7 @@ export default function Page() {
               </a>
             </div>
             <ul className="mb-0 mt-[22px] flex animate-rise list-none flex-wrap gap-x-[18px] gap-y-2 p-0 text-[.95rem] text-muted [animation-delay:.55s]">
-              {["Bombay based", "Serving Bombay", "Moving services", "Quote available"].map((t) => (
+              {["Auckland based", "Serving Auckland", "Moving services", "Quote available"].map((t) => (
                 <li key={t} className="relative pl-4 before:absolute before:left-0 before:top-[9px] before:size-2 before:rotate-45 before:rounded-[2px] before:bg-orange before:content-['']">
                   {t}
                 </li>
@@ -122,7 +123,7 @@ export default function Page() {
         <div className="bg-ink text-white">
           <div className="wrap grid grid-cols-2 gap-4 py-[22px] text-center lg:grid-cols-4">
             {[
-              ["Bombay", "Moving services across Bombay"],
+              ["Auckland", "Moving services across Auckland"],
               ["Homes", "House moving services"],
               ["Office", "Office relocation services"],
               ["NZ", "Long distance moving services"],
@@ -214,7 +215,7 @@ export default function Page() {
                 "House and residential moves",
                 "Office and commercial relocations",
                 "Long distance moving services",
-                "Bombay and New Zealand moving services",
+                "Auckland and New Zealand moving services",
               ].map((t) => (
                 <li key={t} className="relative border-t border-dashed border-line py-[9px] pl-[26px] before:absolute before:left-0 before:font-bold before:text-orange-deep before:content-['✓']">
                   {t}
@@ -237,16 +238,16 @@ export default function Page() {
               className="block w-full rounded-2xl shadow-xl"
             />
             <div className="absolute -bottom-3.5 -right-3 rounded-xl bg-orange px-[18px] py-3 text-ink shadow-xl max-lg:bottom-2 max-lg:right-2">
-              <span className="block font-display text-[1.8rem] font-extrabold leading-none">Bombay</span>
-              <span className="text-[.8rem] font-semibold">Moving services</span>
+              <span className="block font-display text-[1.8rem] font-extrabold leading-none">Metro</span>
+              <span className="text-[.8rem] font-semibold">Movers services</span>
             </div>
           </div>
 
           <div>
             <p className="eyebrow">About Metro Movers</p>
-            <h2>Moving homes and businesses across Bombay</h2>
+            <h2>Moving homes and businesses across Auckland</h2>
             <p className="text-[1.15rem] text-ink-3">
-              Metro Movers is a Bombay based moving company. The company provides moving services for homes, offices and longer-distance relocations across Bombay and New Zealand.
+              Metro Movers is an Auckland based moving company. The company provides moving services for homes, offices and longer-distance relocations across Auckland and New Zealand.
             </p>
             <ul className="mb-[22px] list-none p-0">
               {["Residential and house moving", "Office and commercial moving", "Long distance moving services"].map((t) => (

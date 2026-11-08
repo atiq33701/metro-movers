@@ -1,3 +1,4 @@
+
 import "./globals.css";
 import Script from "next/script";
 import Link from "next/link";
@@ -10,8 +11,8 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-H6X4F7C6L5";
 
 export const metadata = {
   metadataBase: new URL("https://www.metromovers.co.nz"),
-  title: "Metro Movers | Moving Services in Bombay",
-  description: "Metro Movers provides moving and relocation services in Bombay, New Zealand.",
+  title: "Metro Movers | Moving Services in Auckland",
+  description: "Metro Movers provides moving and relocation services across Auckland, New Zealand.",
   applicationName: "Metro Movers",
   icons: {
     icon: [
@@ -75,12 +76,11 @@ export default function RootLayout({ children }) {
                     className="mb-4 block h-16 w-auto max-w-full rounded-md bg-white object-contain p-0.75"
                   />
                   <p className="max-w-[36ch]">
-                    Metro Movers provides moving and relocation services in Bombay, New Zealand.
+                    Metro Movers provides moving and relocation services across Auckland, New Zealand.
                   </p>
                   <address className="not-italic leading-normal text-white">
-                    118 Paparata Road, Bombay
-                    <br />
-                    Bombay 2675, New Zealand
+                   Auckland, New Zealand
+                   
                   </address>
                 </div>
 
@@ -103,8 +103,8 @@ export default function RootLayout({ children }) {
                         +64 22 687 1426
                       </a>
                     </li>
-                    <li className="py-1.25">118 Paparata Road, Bombay</li>
-                    <li className="py-1.25">Bombay 2675, New Zealand</li>
+                    <li className="py-1.25">Serving Auckland, New Zealand</li>
+                    <li className="py-1.25">Based at 118 Paparata Road, Bombay 2675</li>
                   </ul>
 
                   <div className="mt-4.5 flex gap-2.5">

@@ -1,24 +1,24 @@
 import { Landing, meta } from "../../components/Shared";
 
 export const metadata = meta(
-  "House Movers Bombay | House Moving Services | Metro Movers",
-  "House moving services in Bombay from Metro Movers. Moving apartments, townhouses and family homes with careful planning, furniture handling and relocation support.",
+  "House Movers Auckland | House Moving Services | Metro Movers",
+  "House moving services in Auckland from Metro Movers. Moving apartments, townhouses and family homes with careful planning, furniture handling and relocation support.",
   "/house-moving",
   "/img/photos/18.jpeg"
 );
 
 const d = {
-  eyebrow: "House Moving Bombay",
-  title: "House Movers & Removals in Bombay",
-  lead: "Moving home in Bombay? Metro Movers provides house moving and relocation services for apartments, townhouses and family homes. Share your pickup location, destination and move details with us to plan your move.",
+  eyebrow: "House Moving Auckland",
+  title: "House Movers & Removals in Auckland",
+  lead: "Moving home in Auckland? Metro Movers provides house moving and relocation services for apartments, townhouses and family homes. Share your pickup location, destination and move details with us to plan your move.",
   bullets: [
     "House moving services for apartments, townhouses and homes",
     "Careful handling of furniture and household belongings",
     "Move planning based on your locations and requirements",
-    "Serving Bombay and other locations across New Zealand",
+    "Serving Auckland and surrounding areas",
   ],
   image: "/img/photos/18.jpeg",
-  imageAlt: "Metro Movers house moving service in Bombay",
+  imageAlt: "Metro Movers house moving service in Auckland",
   cta2: "WhatsApp Us",
   trust: [
     ["01", "Pickup details"],
@@ -62,23 +62,23 @@ const d = {
   ],
   faqTitle: "Frequently asked questions",
   faqs: [
-    ["How much does it cost to move house in Bombay?", "The cost depends on your pickup and delivery locations, move size, access conditions, furniture and other requirements. Contact Metro Movers with your details to request a quote."],
+    ["How much does it cost to move house in Auckland?", "The cost depends on your pickup and delivery locations, move size, access conditions, furniture and other requirements. Contact Metro Movers with your details to request a quote."],
     ["Do I need to empty my drawers?", "For safer handling, remove valuables, liquids and fragile items from drawers before moving. Lightweight items may be left inside where appropriate."],
     ["What information do you need for a quote?", "Provide your pickup and delivery locations, number of bedrooms, larger items, access conditions, preferred date and any special requirements so the move can be properly understood."],
     ["Can I move house on a weekend?", "You can request a weekend moving date. Availability depends on the date and requirements of your move."],
-    ["Which areas do you cover?", "Metro Movers is Bombay based and provides moving and relocation services in Bombay and other locations across New Zealand."],
+    ["Which areas do you cover?", "Metro Movers provides house moving and relocation services in Auckland and surrounding areas. Contact us with your pickup and delivery locations to discuss your move."],
     ["Can you help with packing?", "If you require packing assistance or have specific packing requirements, mention them when requesting your quote so they can be discussed as part of your move."],
   ],
-  areaTitle: "House Movers in Bombay",
+  areaTitle: "House Movers in Auckland",
   areaText:
-    "Metro Movers is Bombay based. Contact us about your house move, whether you are relocating within Bombay or planning a move to another location in New Zealand.",
-  chips: ["Bombay", "House Moving", "Home Relocation", "Apartment Moving", "Townhouse Moving", "Furniture Moving", "Residential Moving", "Metro Movers", "New Zealand"],
-  ctaTitle: "Ready to plan your Bombay house move?",
+    "Contact Metro Movers about your house move in Auckland, whether you are relocating within the city or planning a move to another location in New Zealand.",
+  chips: ["Auckland", "House Moving", "Home Relocation", "Apartment Moving", "Townhouse Moving", "Furniture Moving", "Residential Moving", "Metro Movers", "New Zealand"],
+  ctaTitle: "Ready to plan your Auckland house move?",
   ctaText: "Request a quote with your pickup location, destination, move size and preferred date.",
   serviceType: "House moving",
-  serviceName: "House Movers & Removals in Bombay",
-  serviceDescription: "House moving and relocation services in Bombay from Metro Movers.",
-  serviceArea: "Bombay",
+  serviceName: "House Movers & Removals in Auckland",
+  serviceDescription: "House moving and relocation services in Auckland from Metro Movers.",
+  serviceArea: "Auckland",
 };
 
 export default function Page() {

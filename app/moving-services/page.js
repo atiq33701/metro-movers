@@ -1,33 +1,34 @@
+
 import { Landing, meta } from "../../components/Shared";
 
 export const metadata = meta(
-  "Metro Movers | House & Office Moving Services",
-  "Metro Movers provides house, apartment and office moving services across Bombay. Get a moving quote based on your addresses and requirements.",
+  "Metro Movers | House & Office Moving Services Auckland",
+  "Metro Movers provides house, apartment and office moving services across Auckland. Get a moving quote based on your addresses and requirements.",
   "/moving-services",
   "/img/photos/16.jpeg"
 );
 
 const d = {
-  eyebrow: "Metro Movers",
+  eyebrow: "Metro Movers Auckland",
   title: "Metro Movers & Moving Services",
-  lead: "Metro Movers provides moving services for homes, apartments and offices across Bombay. Share your pickup and delivery locations with us and we can prepare a quote for your move.",
+  lead: "Metro Movers provides moving services for homes, apartments and offices across Auckland. Share your pickup and delivery locations with us and we can prepare a quote for your move.",
   bullets: [
     "House and apartment moving",
     "Office and commercial moving",
-    "Moving services across Bombay",
+    "Moving services across Auckland",
     "Quotes based on your specific moving requirements",
   ],
   image: "/img/photos/16.jpeg",
-  imageAlt: "Metro Movers moving service in Bombay",
+  imageAlt: "Metro Movers moving service in Auckland",
   cta2: "WhatsApp +64 22 687 1426",
   servicesTitle: "Moving services",
   services: [
-    ["House moving", "Moving services for households relocating between homes across Bombay."],
+    ["House moving", "Moving services for households relocating between homes across Auckland."],
     ["Apartment moving", "Moving services for apartments and other residential properties. Let us know about lifts, stairs and access."],
     ["Office moving", "Relocation services for desks, office furniture, equipment and workplace items."],
     ["Small moves", "Smaller moving enquiries can be considered. Tell us what you need moved and where it needs to go."],
     ["Furniture moving", "Furniture and household items can be included in your moving enquiry."],
-    ["Bombay relocations", "Moving between different Bombay locations with a quote based on your addresses and requirements."],
+    ["Auckland relocations", "Moving between different Auckland locations with a quote based on your addresses and requirements."],
   ],
   priceTitle: "Moving quotes",
   priceText:
@@ -56,21 +57,21 @@ const d = {
   ],
   faqTitle: "Frequently asked questions",
   faqs: [
-    ["Which areas of Bombay do you cover?", "Metro Movers is Bombay based and provides moving services across Bombay. Send your pickup and delivery addresses to confirm your moving requirements."],
+    ["Which areas of Auckland do you cover?", "Metro Movers provides moving services across Auckland. Send your pickup and delivery addresses to confirm your moving requirements."],
     ["Do you move houses and apartments?", "Yes. House and apartment moves can be quoted based on the size of the move, locations, access and other requirements."],
     ["Do you handle small moves?", "Small moving enquiries can be considered. Tell Metro Movers what needs to be moved and provide the pickup and delivery locations for a quote."],
     ["Can you move office furniture?", "Yes. Metro Movers provides office and commercial moving services for desks, furniture, equipment and other workplace items."],
-    ["Can you move items between different parts of Bombay?", "Yes. Provide both addresses, your preferred date and the details of what needs moving so Metro Movers can prepare a quote."],
+    ["Can you move items between different parts of Auckland?", "Yes. Provide both addresses, your preferred date and the details of what needs moving so Metro Movers can prepare a quote."],
   ],
-  areaTitle: "Bombay areas we serve",
-  areaText: "Metro Movers is Bombay based and provides moving services across Bombay.",
-  chips: ["Bombay", "Pukekohe", "Papakura", "Manukau", "South Bombay", "Central Bombay", "West Bombay", "North Bombay", "East Bombay"],
-  ctaTitle: "Planning a move in Bombay?",
+  areaTitle: "Auckland areas we serve",
+  areaText: "Metro Movers provides moving services across Auckland. Contact us with your pickup and delivery locations to discuss your move.",
+  chips: ["Auckland", "Pukekohe", "Papakura", "Manukau", "South Auckland", "Central Auckland", "West Auckland", "North Shore", "East Auckland"],
+  ctaTitle: "Planning a move in Auckland?",
   ctaText: "Send your moving details for a quote, or contact Metro Movers directly through WhatsApp.",
   serviceType: "Moving service",
-  serviceName: "Bombay Moving Services",
-  serviceDescription: "Metro Movers provides house, apartment and office moving services across Bombay.",
-  serviceArea: "Bombay",
+  serviceName: "Auckland Moving Services",
+  serviceDescription: "Metro Movers provides house, apartment and office moving services across Auckland.",
+  serviceArea: "Auckland",
 };
 
 export default function Page() {

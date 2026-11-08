@@ -1,8 +1,9 @@
+
 import { Ld, business, meta } from "../../components/Shared";
 
 export const metadata = meta(
-  "Customer Reviews | Metro Movers",
-  "Read customer reviews and feedback about Metro Movers moving and relocation services in Bombay, New Zealand.",
+  "Customer Reviews | Metro Mover Auckland",
+  "Read customer reviews and feedback about Metro Mover moving and relocation services in Auckland, New Zealand.",
   "/Reviews",
   "/img/photos/2.jpeg"
 );
@@ -13,7 +14,7 @@ const GOOGLE_URL =
 const REVIEWS = [
   {
     name: "Chris",
-    location: "Bombay",
+    location: "Auckland",
     title: "2 bedroom apartment move",
     text: "Very professional service. We had to delay due to settlement delays so they did another job first. This was a more expensive quote, but the communication and customisation was superior so it was worth it to pay a little more. Moving is stressful enough without having mover surprises, so I recommend choosing Metro Movers.",
     images: ["/img/photos/2.jpeg", "/img/photos/3.jpeg"],
@@ -22,7 +23,7 @@ const REVIEWS = [
   },
   {
     name: "Daniel",
-    location: "Bombay",
+    location: "Auckland",
     title: "Storage move",
     text: "The guys were legends! Bench top was far heavier than I was told, this wasn't a problem, they strapped on their weight belts and got it done. They even wanted to sweep up!",
     images: ["/img/photos/4.jpeg"],
@@ -31,7 +32,7 @@ const REVIEWS = [
   },
   {
     name: "Fumi",
-    location: "Bombay",
+    location: "Auckland",
     title: "2 bedroom apartment move",
     text: "Extremely efficient bunch of guys. Had our 2 bedroom apartment moved swiftly. Awesome communication and customer service.",
     images: ["/img/photos/6.jpeg", "/img/photos/7.jpeg"],
@@ -40,9 +41,9 @@ const REVIEWS = [
   },
   {
     name: "Edwin",
-    location: "Bombay",
+    location: "Auckland",
     title: "2 bedroom house move",
-    text: "We moved into Mt Wellington from Parnell. Metro Movers' Team is fast, efficient, productive, and moved all of our furniture, etc. carefully and quickly. Great team effort. Best moving experience so far in Bombay. No complaints. Highly recommended!",
+    text: "We moved into Mt Wellington from Parnell. Metro Movers' Team is fast, efficient, productive, and moved all of our furniture, etc. carefully and quickly. Great team effort. Best moving experience so far in Auckland. No complaints. Highly recommended!",
     images: [
       "/img/photos/8.jpeg",
       "/img/photos/9.jpeg",
@@ -53,7 +54,7 @@ const REVIEWS = [
   },
   {
     name: "Ethan",
-    location: "Bombay",
+    location: "Auckland",
     title: "3 bedroom house move",
     text: "Vincent and his team were great! Very efficient and took extra care with everything. They wrapped drawers and such with cling wrap and had blankets for the more delicate things. Would definitely recommend and will use again!",
     images: ["/img/photos/11.jpeg", "/img/photos/12.jpeg"],
@@ -62,7 +63,7 @@ const REVIEWS = [
   },
   {
     name: "Brendon",
-    location: "Bombay",
+    location: "Auckland",
     title: "Storage move",
     text: "Awesome guys, very efficient. Couldn't be happier with how the move went. Thanks very much.",
     images: ["/img/photos/13.jpeg"],
@@ -71,7 +72,7 @@ const REVIEWS = [
   },
   {
     name: "McKenzie",
-    location: "Bombay",
+    location: "Auckland",
     title: "1 bedroom apartment move",
     text: "The guys were amazing! Clear communication, happy to adjust the booking for me and got everything where it needed to be with no problems. Highly recommend, they made it super easy!",
     images: ["/img/photos/14.jpeg", "/img/photos/15.jpeg"],
@@ -94,14 +95,14 @@ export default function Page() {
           <div className="inline-flex flex-wrap items-center justify-center gap-3.5 rounded-[28px] border border-line bg-white px-[22px] py-2.5 shadow-xl">
             <div className="font-semibold text-muted">What Our Customers Say</div>
             <div className="text-[1.1rem] text-[#f4b400]"><Stars /></div>
-            <p className="m-0 font-semibold text-muted">Customer feedback about Metro Movers</p>
+            <p className="m-0 font-semibold text-muted">Customer feedback about Metro Mover</p>
             <a
               href={GOOGLE_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-block font-semibold underline underline-offset-[3px] hover:text-orange"
             >
-              View Metro Movers on Google →
+              View Metro Mover on Google →
             </a>
           </div>
         </div>
@@ -125,14 +126,14 @@ export default function Page() {
               <div className="grid grid-cols-[repeat(auto-fill,minmax(110px,1fr))] gap-2">
                 {r.images.map((src) => (
                   <div key={src} className="aspect-square overflow-hidden rounded-lg bg-paper-2">
-                    <img alt={`${r.title} - Metro Movers`} loading="lazy" src={src} className="block size-full object-cover" />
+                    <img alt={`${r.title} - Metro Mover`} loading="lazy" src={src} className="block size-full object-cover" />
                   </div>
                 ))}
               </div>
 
               <div className="border-t border-line pt-3">
                 <div className="mt-2 rounded-md border-l-4 border-orange bg-paper-2 px-3.5 py-3">
-                  <h4 className="mb-1 text-[.85rem] font-bold text-orange-deep">Metro Movers Reply:</h4>
+                  <h4 className="mb-1 text-[.85rem] font-bold text-orange-deep">Metro Mover Reply:</h4>
                   <p className="m-0 text-[.95rem] text-ink-3">{r.response}</p>
                 </div>
               </div>
@@ -143,7 +144,7 @@ export default function Page() {
         <div className="mx-auto mb-4 mt-12 max-w-[640px] rounded-2xl border border-line bg-white px-7 py-8 text-center">
           <h2 className="mb-2">Moved with us recently?</h2>
           <p className="mb-[18px] text-muted">
-            Share your experience on Google and help other customers learn more about Metro Movers.
+            Share your experience on Google and help other customers learn more about Metro Mover.
           </p>
           <a className="btn btn-primary" href={GOOGLE_URL} target="_blank" rel="noopener noreferrer">
             Leave a Review on Google

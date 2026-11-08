@@ -1,10 +1,11 @@
+
 import Link from "next/link";
 import { QuoteButton } from "../../components/Quote";
 import { Ld, WHATSAPP, business, meta } from "../../components/Shared";
 
 export const metadata = meta(
-  "Rubbish Removal Bombay | Furniture & Garden Waste | Metro Movers",
-  "Need unwanted furniture, old appliances or garden waste collected in Bombay? Tell Metro Movers what needs removing and ask for a written quote.",
+  "Rubbish Removal Auckland | Furniture & Garden Waste | Metro Mover",
+  "Need unwanted furniture, old appliances or garden waste collected in Auckland? Tell Metro Mover what needs removing and ask for a written quote.",
   "/rubbish-removal",
   "/img/photos/2.jpeg"
 );
@@ -13,11 +14,11 @@ const serviceLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   serviceType: "Rubbish removal",
-  name: "Rubbish removal in Bombay",
+  name: "Rubbish removal in Auckland",
   description:
-    "Need unwanted furniture, old appliances or garden waste collected in Bombay? Tell Metro Movers what needs removing and ask for a written quote.",
+    "Need unwanted furniture, old appliances or garden waste collected in Auckland? Tell Metro Mover what needs removing and ask for a written quote.",
   provider: { ...business, "@context": undefined },
-  areaServed: { "@type": "City", name: "Bombay" },
+  areaServed: { "@type": "City", name: "Auckland" },
 };
 
 const ITEMS = [
@@ -58,8 +59,8 @@ export default function Page() {
       <article>
         <header className="wrap grid items-center gap-7 pb-12 pt-7 md:grid-cols-[1.1fr_1fr] md:gap-12 md:pt-11">
           <div>
-            <p className="eyebrow">Bombay based · Serving Bombay</p>
-            <h1 className="max-w-[13ch] max-md:max-w-none max-[560px]:text-[2.1rem]">Rubbish removal in Bombay</h1>
+            <p className="eyebrow">Auckland based · Serving Auckland</p>
+            <h1 className="max-w-[13ch] max-md:max-w-none max-[560px]:text-[2.1rem]">Rubbish removal in Auckland</h1>
             <p className="text-[1.15rem] text-ink-3 max-[560px]:text-base">
               Clearing out unwanted furniture, old appliances or garden waste? Tell us what needs collecting and where it is. We&apos;ll confirm what we can take and the price before booking.
             </p>
@@ -70,13 +71,13 @@ export default function Page() {
             <img
               width="720"
               height="480"
-              alt="Metro Movers moving service in Bombay"
+              alt="Metro Mover rubbish removal service in Auckland"
               loading="eager"
               src="/img/photos/metro rubbish.png"
               className="block aspect-3/2 w-full rounded-2xl object-cover"
             />
             <figcaption className="mt-2.5 text-[.85rem] text-muted">
-              Metro Movers moving and collection services in Bombay
+              Metro Mover rubbish removal and collection services in Auckland
             </figcaption>
           </figure>
         </header>
@@ -144,7 +145,7 @@ export default function Page() {
         <section className="section bg-paper-2">
           <div className="wrap max-w-205">
             <h2>Tell us what you want removed</h2>
-            <p>Bombay based and serving all of Bombay. Send the collection address and item details to get started.</p>
+            <p>Auckland based and serving all of Auckland. Send the collection address and item details to get started.</p>
             <Buttons />
           </div>
         </section>

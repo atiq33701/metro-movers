@@ -1,9 +1,10 @@
+
 import { QuoteButton } from "../../components/Quote";
 import { Ld, WHATSAPP, business, meta } from "../../components/Shared";
 
 export const metadata = meta(
-  "Moving Company Prices Bombay | Metro Movers",
-  "Learn how Metro Movers quotes for house, office and long distance moves in Bombay. Get a moving quote based on your addresses, move size, access and requirements.",
+  "Moving Company Prices Auckland | Metro Mover",
+  "Learn how Metro Mover quotes for house, office and long distance moves in Auckland. Get a moving quote based on your addresses, move size, access and requirements.",
   "/pricing",
   "/img/photos/15.jpeg"
 );
@@ -12,7 +13,7 @@ const FAQS = [
   ["Is there a minimum charge?", "Your quote will confirm the applicable minimum booking or charge for your move."],
   ["What information do you need for a quote?", "Provide your pickup and delivery addresses, preferred date, approximate move size and details of any large, heavy or difficult-to-access items."],
   ["Why can moving prices vary?", "Moving requirements vary between properties and jobs. The amount being moved, distance, access, stairs, parking and special items can all affect the quote."],
-  ["Can I get an exact quote?", "Yes. Send Metro Movers your move details and the team can review the requirements and provide a quote."],
+  ["Can I get an exact quote?", "Yes. Send Metro Mover your move details and the team can review the requirements and provide a quote."],
   ["Do you provide long distance moving quotes?", "Yes. Provide the pickup location, destination, move size and preferred date when requesting a long distance moving quote."],
 ];
 
@@ -44,7 +45,7 @@ export default function Page() {
       <article>
         <header className="pb-8 pt-12">
           <div className="wrap max-w-[820px] text-center">
-            <h1 className="text-[clamp(1.9rem,4vw,2.8rem)]">Moving Prices in Bombay: How Our Quotes Work</h1>
+            <h1 className="text-[clamp(1.9rem,4vw,2.8rem)]">Moving Prices in Auckland: How Our Quotes Work</h1>
             <p className="text-[1.1rem] text-ink-3">
               Moving costs depend on the size of your move, the distance between addresses, access and the items being moved. Send us your details and we can provide a quote for your move.
             </p>
@@ -63,7 +64,7 @@ export default function Page() {
                   Every move is different. Your quote can take into account the amount being moved, pickup and delivery locations, access, stairs, parking, large or heavy items and other requirements.
                 </p>
               </div>
-              <img width="720" alt="Metro Movers moving service" loading="lazy" src="/img/photos/14.jpeg" className="mt-[18px] block w-full rounded-xl" />
+              <img width="720" alt="Metro Mover moving service in Auckland" loading="lazy" src="/img/photos/14.jpeg" className="mt-[18px] block w-full rounded-xl" />
             </div>
 
             <div>
@@ -73,7 +74,7 @@ export default function Page() {
                   "Tell us your pickup and delivery addresses, preferred date and approximate move size",
                   "Let us know about large or heavy items, stairs, lifts, parking and access at either location",
                   "We review the requirements and prepare a quote for your move",
-                  "Once the details are confirmed, you can arrange your move with Metro Movers",
+                  "Once the details are confirmed, you can arrange your move with Metro Mover",
                 ].map((t) => (
                   <li key={t} className="mb-2.5">{t}</li>
                 ))}
@@ -153,7 +154,7 @@ export default function Page() {
                 </tbody>
               </table>
               <p className="mt-4 text-[.9rem] text-muted">
-                The final price depends on the details of your particular move. Contact Metro Movers with your requirements for a quote.
+                The final price depends on the details of your particular move. Contact Metro Mover with your requirements for a quote.
               </p>
             </div>
           </div>
@@ -177,7 +178,7 @@ export default function Page() {
           <div className="wrap max-w-[820px] text-center">
             <h2 className="text-[clamp(1.4rem,3vw,1.9rem)]">Get your moving quote</h2>
             <p className="text-[1.1rem] text-ink-3">
-              Send your pickup and delivery addresses, move details and preferred date. Metro Movers can then prepare a quote based on your requirements.
+              Send your pickup and delivery addresses, move details and preferred date. Metro Mover can then prepare a quote based on your requirements.
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-3"><Buttons /></div>
           </div>

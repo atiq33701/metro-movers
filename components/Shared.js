@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { QuoteButton } from "./Quote";
 
@@ -41,7 +42,7 @@ export const business = {
   address,
   geo: { "@type": "GeoCoordinates", latitude: -37.1865294, longitude: 174.9916907 },
   areaServed: [
-    { "@type": "City", name: "Bombay" },
+    { "@type": "City", name: "Auckland" },
     { "@type": "Country", name: "New Zealand" },
   ],
   sameAs: ["https://www.instagram.com/metro_movers_ltd/"],
@@ -58,21 +59,21 @@ const link = "mt-3 inline-block font-semibold text-orange-deep underline";
 const check =
   "relative border-b border-line py-2.5 pl-8 before:absolute before:left-1 before:font-bold before:text-orange-deep before:content-['✓']";
 
-/*
- Shared layout for every service page. Each page file passes its own content (d).
- d = {
-   eyebrow, title, lead, bullets[], image, imageAlt, cta2,
-   trust?: [[big, small]],
-   servicesTitle, services: [[title, text]],
-   priceTitle, priceText, priceLink: [href, label], priceList[],
-   stepsTitle, steps: [[title, text]],
-   reviewsTitle, reviews: [[text, name, place]],
-   faqTitle, faqs: [[question, answer]],
-   areaTitle, areaText, chips[],
-   ctaTitle, ctaText,
-   serviceType, serviceName, serviceDescription, serviceArea
- }
-*/
+/**
+ * Shared layout for every service page. Each page file passes its own content (d).
+ * d = {
+ *   eyebrow, title, lead, bullets[], image, imageAlt, cta2,
+ *   trust?: [[big, small]],
+ *   servicesTitle, services: [[title, text]],
+ *   priceTitle, priceText, priceLink: [href, label], priceList[],
+ *   stepsTitle, steps: [[title, text]],
+ *   reviewsTitle, reviews: [[text, name, place]],
+ *   faqTitle, faqs: [[question, answer]],
+ *   areaTitle, areaText, chips[],
+ *   ctaTitle, ctaText,
+ *   serviceType, serviceName, serviceDescription, serviceArea
+ * }
+ */
 export function Landing({ d }) {
   const ld = [
     business,

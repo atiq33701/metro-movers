@@ -1,9 +1,10 @@
+
 import { QuoteButton } from "../../components/Quote";
 import { Ld, WHATSAPP, business, meta } from "../../components/Shared";
 
 export const metadata = meta(
-  "Moving Tips & Checklist | Metro Movers Bombay",
-  "Practical moving tips for customers in Bombay, including packing, furniture preparation, labelling, access and moving-day planning.",
+  "Moving Tips & Checklist | Metro Movers Auckland",
+  "Practical moving tips for customers in Auckland, including packing, furniture preparation, labelling, access and moving-day planning.",
   "/MovingTips",
   "/img/photos/2.jpeg"
 );
@@ -37,10 +38,10 @@ export default function Page() {
 
       <header className="pb-6 pt-[clamp(36px,6vw,72px)]">
         <div className="wrap">
-          <p className="eyebrow">Moving tips</p>
+          <p className="eyebrow">Moving tips for Auckland</p>
           <h1>Moving Guide</h1>
           <p className="max-w-[60ch] text-[1.15rem] text-ink-3">
-            Simple preparation tips to help make your moving day more organised, efficient and easier to manage.
+            Simple preparation tips to help make your Auckland moving day more organised, efficient and easier to manage.
           </p>
         </div>
       </header>
@@ -66,7 +67,7 @@ export default function Page() {
 
       <section className="bg-ink py-[clamp(40px,6vw,64px)] text-white">
         <div className="wrap max-w-[820px] text-center">
-          <h2>Ready to plan your move?</h2>
+          <h2>Ready to plan your Auckland move?</h2>
           <p className="text-[1.15rem] text-muted-dark">
             Send your pickup and delivery details, preferred date and move requirements to get started with Metro Movers.
           </p>
