@@ -1,0 +1,21 @@
+These images were referenced by the original pages but were NOT inside the zip you sent
+(HTTrack did not download them). Placeholders were generated so the layout works.
+Replace each file in /public/img with the real image (same file name):
+
+public/img/GardenWasteDisposal.webp
+public/img/INSLogo.webp
+public/img/SuperCuttedLogo.webp
+public/img/TikTokQR.png
+public/img/WeChatQR.png
+public/img/photos/appliance-loaded.webp
+public/img/photos/cabinet-wrapping.webp
+public/img/photos/container-unloading.webp
+public/img/photos/interislander-ferry.webp
+public/img/photos/packed-truck.webp
+public/img/photos/pallets-warehouse.webp
+public/img/photos/student-boxes.webp
+public/img/photos/team-rural-house.webp
+public/img/photos/team.webp
+public/img/photos/truck-commercial.webp
+public/img/photos/truck-long-distance.webp
+public/img/photos/warehouse-loading.webp
