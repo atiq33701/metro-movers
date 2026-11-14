@@ -73,7 +73,7 @@ export default function Page() {
               height="480"
               alt="Metro Mover rubbish removal service in Auckland"
               loading="eager"
-              src="/img/photos/metro rubbish.png"
+              src="/img/photos/metro rubbish1.png"
               className="block aspect-3/2 w-full rounded-2xl object-cover"
             />
             <figcaption className="mt-2.5 text-[.85rem] text-muted">

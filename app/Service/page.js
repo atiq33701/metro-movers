@@ -17,7 +17,7 @@ const SERVICES = [
   ["Piano Movers", "Upright, grand and digital pianos moved with careful planning around stairs, doorways and access.", "/piano-movers", "/img/photos/15.jpeg"],
   ["Pool Table Movers", "Heavy pool tables moved between homes, garages and venues, with access reviewed before moving day.", "/pool-table-movers", "/img/photos/17.jpeg"],
   ["Spa Pool Movers", "Spa pools moved between properties, with site access, preparation and timing discussed up front.", "/spa-pool-movers", "/img/photos/19.jpeg"],
-  ["Rubbish Removal", "Collection of unwanted furniture, old appliances and garden waste, confirmed and priced before booking.", "/rubbish-removal", "/img/photos/metro rubbish.png"],
+  ["Rubbish Removal", "Collection of unwanted furniture, old appliances and garden waste, confirmed and priced before booking.", "/rubbish-removal", "/img/photos/metro rubbish1.png"],
 ].map(([title, description, href, image], i) => ({
   id: `service-${i + 1}`,
   number: String(i + 1).padStart(2, "0"),
