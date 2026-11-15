@@ -13,8 +13,7 @@ const SERVICE_OPTIONS = [
   "Long Distance Moving",
   "Piano Moving",
   "Pool Table Moving",
-  "Spa Pool Moving",
-  "Rubbish Removal",
+  "Spa Pool Moving"
 ];
 
 const EMPTY = { name: "", phone: "", email: "", date: "", pickup: "", dropoff: "", details: "" };

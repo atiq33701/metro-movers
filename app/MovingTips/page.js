@@ -6,7 +6,7 @@ export const metadata = meta(
   "Moving Tips & Checklist | Metro Movers Auckland",
   "Practical moving tips for customers in Auckland, including packing, furniture preparation, labelling, access and moving-day planning.",
   "/MovingTips",
-  "/img/photos/2.jpeg"
+  "/img/photos/2.png"
 );
 
 const GROUPS = [

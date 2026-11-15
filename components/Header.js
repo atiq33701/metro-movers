@@ -9,11 +9,9 @@ const SERVICES = [
   ["/house-moving", "House Moving"],
   ["/office-movers", "Office Moving"],
   ["/long-distance-movers-nz", "Long Distance"],
-  ["/moving-services", "Moving Services"],
   ["/piano-movers", "Piano Movers"],
   ["/pool-table-movers", "Pool Table Movers"],
   ["/spa-pool-movers", "Spa Pool Movers"],
-  ["/rubbish-removal", "Rubbish Removal"],
 ];
 
 const WHATSAPP = "https://wa.me/64226871426";

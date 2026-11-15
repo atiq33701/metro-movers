@@ -5,19 +5,17 @@ import { Ld, business, meta } from "../../components/Shared";
 
 export const metadata = meta(
   "Moving Services Auckland | Metro Mover",
-  "Metro Mover provides house, apartment, office, furniture and long distance moving, piano, pool table and spa pool moving, and rubbish removal in Auckland, New Zealand.",
+  "Metro Mover provides house, apartment, office, furniture and long distance moving, piano, pool table and spa pool moving in Auckland, New Zealand.",
   "/Service"
 );
 
 const SERVICES = [
-  ["Moving Services", "Explore our complete range of moving services, including house, apartment, office, small moves and furniture relocations across Auckland.", "/moving-services", "/img/photos/10.jpeg"],
-  ["House Moving", "Moving services for homes and households, with careful handling of your belongings from pick-up to drop-off.", "/house-moving", "/img/photos/2.jpeg"],
+  ["House Moving", "Moving services for homes and households, with careful handling of your belongings from pick-up to drop-off.", "/house-moving", "/img/photos/2.png"],
   ["Office Moving", "Office relocation services to help move workplace furniture, equipment and other items between locations.", "/office-movers", "/img/photos/12.jpeg"],
   ["Long Distance Moving", "Long distance moving services across New Zealand for customers relocating between cities and regions.", "/long-distance-movers-nz", "/img/photos/4.jpeg"],
-  ["Piano Movers", "Upright, grand and digital pianos moved with careful planning around stairs, doorways and access.", "/piano-movers", "/img/photos/15.jpeg"],
+  ["Piano Movers", "Upright, grand and digital pianos moved with careful planning around stairs, doorways and access.", "/piano-movers", "/img/photos/15.png"],
   ["Pool Table Movers", "Heavy pool tables moved between homes, garages and venues, with access reviewed before moving day.", "/pool-table-movers", "/img/photos/17.jpeg"],
   ["Spa Pool Movers", "Spa pools moved between properties, with site access, preparation and timing discussed up front.", "/spa-pool-movers", "/img/photos/19.jpeg"],
-  ["Rubbish Removal", "Collection of unwanted furniture, old appliances and garden waste, confirmed and priced before booking.", "/rubbish-removal", "/img/photos/metro rubbish1.png"],
 ].map(([title, description, href, image], i) => ({
   id: `service-${i + 1}`,
   number: String(i + 1).padStart(2, "0"),
@@ -37,7 +35,7 @@ export default function Page() {
           <p className="eyebrow">Services</p>
           <h1>Metro Mover Services</h1>
           <p className="max-w-[60ch] text-[1.15rem] text-ink-3">
-            Explore our moving services in Auckland, including house, apartment, office, furniture and long distance moves, plus piano, pool table and spa pool moving and rubbish removal.
+            Explore our moving services in Auckland, including house, apartment, office, furniture and long distance moves, plus piano, pool table and spa pool moving.
           </p>
         </div>
       </header>

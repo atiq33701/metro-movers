@@ -5,7 +5,7 @@ export const metadata = meta(
   "Customer Reviews | Metro Mover Auckland",
   "Read customer reviews and feedback about Metro Mover moving and relocation services in Auckland, New Zealand.",
   "/Reviews",
-  "/img/photos/2.jpeg"
+  "/img/photos/2.png"
 );
 
 const GOOGLE_URL =
@@ -17,7 +17,7 @@ const REVIEWS = [
     location: "Auckland",
     title: "2 bedroom apartment move",
     text: "Very professional service. We had to delay due to settlement delays so they did another job first. This was a more expensive quote, but the communication and customisation was superior so it was worth it to pay a little more. Moving is stressful enough without having mover surprises, so I recommend choosing Metro Movers.",
-    images: ["/img/photos/2.jpeg", "/img/photos/3.jpeg"],
+    images: ["/img/photos/2.png", "/img/photos/3.png"],
     response:
       "Thank you, Chris, for acknowledging our work. We hope to have the opportunity to serve you again next time!",
   },
@@ -35,7 +35,7 @@ const REVIEWS = [
     location: "Auckland",
     title: "2 bedroom apartment move",
     text: "Extremely efficient bunch of guys. Had our 2 bedroom apartment moved swiftly. Awesome communication and customer service.",
-    images: ["/img/photos/6.jpeg", "/img/photos/7.jpeg"],
+    images: ["/img/photos/6.jpeg", "/img/photos/7.png"],
     response:
       "Thank you very much for your trust. We look forward to serving you next time!",
   },
@@ -75,7 +75,7 @@ const REVIEWS = [
     location: "Auckland",
     title: "1 bedroom apartment move",
     text: "The guys were amazing! Clear communication, happy to adjust the booking for me and got everything where it needed to be with no problems. Highly recommend, they made it super easy!",
-    images: ["/img/photos/14.jpeg", "/img/photos/15.jpeg"],
+    images: ["/img/photos/14.jpeg", "/img/photos/15.png"],
     response:
       "Thank you very much for using our service. We appreciate your kind feedback and hope to serve you again in the future.",
   },

@@ -6,7 +6,7 @@ export const metadata = meta(
   "Moving Company Prices Auckland | Metro Mover",
   "Learn how Metro Mover quotes for house, office and long distance moves in Auckland. Get a moving quote based on your addresses, move size, access and requirements.",
   "/pricing",
-  "/img/photos/15.jpeg"
+  "/img/photos/15.png"
 );
 
 const FAQS = [

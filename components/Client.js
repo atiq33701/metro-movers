@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 const SLIDES = [
   { src: "/img/photos/6.jpeg", alt: "Metro Movers relocation service" },
-  { src: "/img/photos/7.jpeg", alt: "Metro Movers moving team at work" },
+  { src: "/img/photos/7.png", alt: "Metro Movers moving team at work" },
   { src: "/img/photos/8.jpeg", alt: "Metro Movers professional movers" },
   { src: "/img/photos/9.jpeg", alt: "Metro Movers moving and relocation" },
   { src: "/img/photos/10.jpeg", alt: "Metro Movers moving service in Auckland" },

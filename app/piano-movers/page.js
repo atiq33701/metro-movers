@@ -5,7 +5,7 @@ export const metadata = meta(
   "Piano Movers Auckland | Upright & Grand Piano Moving | Metro Mover",
   "Piano moving services in Auckland from Metro Mover. Upright, grand and digital pianos moved with careful planning. Tell us about your piano and access for a quote.",
   "/piano-movers",
-  "/img/photos/15.jpeg"
+  "/img/photos/15.png"
 );
 
 const d = {
@@ -18,7 +18,7 @@ const d = {
     "Careful handling and protection during loading and transport",
     "Quote based on your piano and your pickup and delivery locations",
   ],
-  image: "/img/photos/15.jpeg",
+  image: "/img/photos/15.png",
   imageAlt: "Metro Mover piano moving service in Auckland",
   cta2: "WhatsApp Us",
   trust: [

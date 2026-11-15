@@ -11,10 +11,10 @@ export const metadata = meta(
 );
 
 const SERVICES = [
-  ["/house-moving", "/img/photos/2.jpeg", "House moving services in Auckland", "House moving", "Moving apartments, townhouses and family homes across Auckland with careful handling of your furniture and belongings."],
-  ["/office-movers", "/img/photos/21.jpeg", "Office and commercial moving services", "Office & commercial", "Professional office and commercial relocation services for businesses moving within Auckland."],
+  ["/house-moving", "/img/photos/2.png", "House moving services in Auckland", "House moving", "Moving apartments, townhouses and family homes across Auckland with careful handling of your furniture and belongings."],
+  ["/office-movers", "/img/photos/21.png", "Office and commercial moving services", "Office & commercial", "Professional office and commercial relocation services for businesses moving within Auckland."],
   ["/long-distance-movers-nz", "/img/photos/4.jpeg", "Long distance moving services in New Zealand", "Long distance", "Long distance moving services from Auckland to locations throughout New Zealand."],
-  ["/moving-services", "/img/photos/20.jpeg", "Auckland moving services", "Auckland moving", "Moving assistance for homes and businesses throughout Auckland and surrounding areas."],
+  ["/piano-movers", "/img/photos/15.png", "Auckland Piano Movers", "Piano Movers", "Metro Mover can help move upright, grand and digital pianos between homes, venues and storage."],
 ];
 
 const icon = {
@@ -234,7 +234,7 @@ export default function Page() {
               width="900"
               alt="Metro Movers moving team"
               loading="lazy"
-              src="/img/photos/3.jpeg"
+              src="/img/photos/3.png"
               className="block w-full rounded-2xl shadow-xl"
             />
             <div className="absolute -bottom-3.5 -right-3 rounded-xl bg-orange px-[18px] py-3 text-ink shadow-xl max-lg:bottom-2 max-lg:right-2">

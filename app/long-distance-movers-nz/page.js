@@ -4,7 +4,7 @@ export const metadata = meta(
   "Long Distance Movers Auckland NZ | Metro Movers",
   "Long distance moving services from Auckland across New Zealand. Contact Metro Movers for a quote based on your pickup location, destination, move size and requirements.",
   "/long-distance-movers-nz",
-  "/img/photos/15.jpeg"
+  "/img/photos/15.png"
 );
 
 const d = {
@@ -17,7 +17,7 @@ const d = {
     "Quotes based on the size and requirements of your move",
     "Large, heavy and access-sensitive items can be discussed before booking",
   ],
-  image: "/img/photos/20.jpeg",
+  image: "/img/photos/7.png",
   imageAlt: "Metro Movers long distance moving service from Auckland",
   cta2: "Call +64226871426",
   trust: [

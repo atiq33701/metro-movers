@@ -4,7 +4,7 @@ export const metadata = meta(
   "House Movers Auckland | House Moving Services | Metro Movers",
   "House moving services in Auckland from Metro Movers. Moving apartments, townhouses and family homes with careful planning, furniture handling and relocation support.",
   "/house-moving",
-  "/img/photos/18.jpeg"
+  "/img/photos/18.png"
 );
 
 const d = {
@@ -17,7 +17,7 @@ const d = {
     "Move planning based on your locations and requirements",
     "Serving Auckland and surrounding areas",
   ],
-  image: "/img/photos/18.jpeg",
+  image: "/img/photos/18.png",
   imageAlt: "Metro Movers house moving service in Auckland",
   cta2: "WhatsApp Us",
   trust: [
