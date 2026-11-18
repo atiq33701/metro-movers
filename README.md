@@ -21,6 +21,7 @@ npm run build && npm start   # production
 | `/pricing` | `app/pricing/page.js` |
 | `/Reviews` | `app/Reviews/page.js` |
 | `/MovingTips` | `app/MovingTips/page.js` |
+| `/blog`, `/blog/<slug>` | `app/blog/page.js`, `app/blog/[slug]/page.js` (posts live in `app/blog/_posts/`) |
 | `/house-moving` | `app/house-moving/page.js` |
 | `/office-movers` | `app/office-movers/page.js` |
 | `/long-distance-movers-nz` | `app/long-distance-movers-nz/page.js` |
@@ -47,3 +48,10 @@ The footer lives in `app/layout.js`. Each page keeps its own text/data at the to
 2. **Quote form** – posts to `app/api/quote/route.js`. Set `QUOTE_WEBHOOK_URL` (see `.env.example`) to forward submissions.
 3. **Map** – keyless Google Maps embed of 118 Paparata Road, Bombay.
 4. Google Analytics ID is read from `NEXT_PUBLIC_GA_ID`.
+
+## Blog
+
+The blog lives in `app/blog/`. Every article is an object in one of the files in `app/blog/_posts/`
+(grouped by service). To add or edit an article, change its object there: title, description, date, image
+(any file already in `public/img/photos`), and its `intro`, `sections` and `closing` text. The blog index,
+article pages, related-article links and the sitemap all update automatically.

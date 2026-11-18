@@ -109,6 +109,7 @@ export default function Header() {
           <Link href="/pricing" className={cls("/pricing")}>Pricing</Link>
           <Link href="/Reviews" className={cls("/Reviews")}>Reviews</Link>
           <Link href="/MovingTips" className={cls("/MovingTips")}>Moving Tips</Link>
+          <Link href="/blog" className={cls(pathname.startsWith("/blog") ? pathname : "/blog")}>Blog</Link>
 
           <div className="flex flex-col gap-2.5 pt-[18px] lg:hidden">
             <a href={WHATSAPP} target="_blank" rel="noopener noreferrer" className="btn btn-outline border-white text-white hover:bg-white hover:text-ink">
